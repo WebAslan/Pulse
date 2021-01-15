@@ -1,20 +1,29 @@
 {
-  "name": "pulse",
+  "name": "pulsemeter",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebAslan/Pulse.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebAslan/Pulse/issues"
+  },
+  "homepage": "https://github.com/WebAslan/Pulse#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-sass": "^4.1.0"
-  }, 
+  },
   "browserslist": [
     "last 1 version",
     "> 1%",
