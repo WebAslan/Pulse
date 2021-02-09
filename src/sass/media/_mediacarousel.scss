@@ -1,0 +1,62 @@
+@media (max-width: 991px) {
+    .carousel {
+        padding: 60px 50px;
+        &__inner {
+            width: 700px;
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 85%;
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                .slick-active{
+                    margin: 0 5px;
+                    background-color: $main-color;
+                    border-radius: 100%;
+                }
+                [type=button]:not(:disabled) {
+                    margin: 0 5px;
+                    border-color: $main-color;
+                    border-radius: 100%;
+                }
+            }
+        }        
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        padding: 40px 20px;
+        &__inner {
+            width: 400px;
+            img {
+                display: block;
+                margin: 0 50px;
+                width: 70%;
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                .slick-active{
+                    margin: 0 5px;
+                    background-color: $main-color;
+                    border-radius: 100%;
+                }
+                .slick-dots {
+                    display: none;
+                    width: 5px;
+                    height: 5px;
+                }
+                [type=button]:not(:disabled) {
+                    margin: 0 5px;
+                    border-color: $main-color;
+                    border-radius: 100%;
+                }
+            }
+        }        
+    }
+
+}
